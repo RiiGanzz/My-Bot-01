@@ -18,8 +18,8 @@ import moment from 'moment-timezone'
 
 /*============= WAKTU =============*/
 let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+    let wibm = moment.tz('Asia/Jepang').format('mm')
+    let wibs = moment.tz('Asia/Korea').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
@@ -42,33 +42,33 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
     
 
 /*============== SOCIAL ==============*/
-global.sig = 'https://instagram.com/lampu_philips267'
-global.sgh = 'https://github.com/BaraXD'
-global.sgc = 'https://chat.whatsapp.com/JXlb6mMlQai77uQSXcmv5T'
-global.sdc = 'https://t.me/BotzzMeeOFC'
-global.snh = 'wa.me/6283174508962'
+global.sig = 'https://instagram.com/MiawAung'
+global.sgh = 'https://github.com/RiiOFC'
+global.sgc = 'https://chat.whatsapp.com/CKF1y1F0M2J1hRJBSsv8bC'
+global.sdc = 'https://discord.gg/36MPeYtz'
+global.snh = 'wa.me/6281247822525'
 
 /*============== PAYMENT ==============*/
-global.pdana = '083174508962'
-global.povo = '083174508962'
-global.pgopay = '083174508962'
-global.ppulsa = '083174508962'
-global.ppulsa2 = '08979530736'
-global.psaweria = 'https://saweria.co/BaraXDz'
+global.pdana = '081247822525'
+global.povo = '081367417823'
+global.pgopay = '081247822525'
+global.ppulsa = '081247822525'
+global.ppulsa2 = '081368351252'
+global.pqris = 'Utiwi'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '628979530736'
-global.nomorown = '6283174508962'
-global.namebot = 'BotzzMee'
-global.nameown = 'ZukashikaⒸ︎'
+global.nomorbot = '6281327538371'
+global.nomorown = '6281247822525'
+global.namebot = 'BotRii'
+global.nameown = 'Rii'
 
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6283174508962'],
-  ['6283174508962'],
-  ['6283174508962'],
-  ['6283174508962', 'BotzzMee', true]
+  ['6281247822525'],
+  ['6281247822525'],
+  ['6281247822525'],
+  ['6281247822525', 'Rii', true]
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -113,19 +113,19 @@ global.APIKeys = { // APIKey Here
 
 
 /*============== WATERMARK ==============*/
-global.wm = 'BotzzMee' //Main Watermark
-global.wm2 = 'Halo kak Selamat datang di BotzzMee👋'
-global.wm3 = '☘︎ BotzzMee'
+global.wm = 'BotRii' //Main Watermark
+global.wm2 = 'Halo kak Selamat Datang Di BotRii👋'
+global.wm3 = '☘︎ BotRii'
 global.botdate = `☘︎ 𝗗𝗮𝘁𝗲: ${week} ${date}\n☘︎ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `𝗧 𝗜 𝗠 𝗘 : ${wktuwib}`
 global.titlebot = `☘︎ 𝗪𝗵𝗮𝘁𝘀𝗮𝗽𝗽 𝗕𝗼𝘁 𝗠𝘂𝗹𝘁𝗶-𝗗𝗲𝘃𝗶𝗰𝗲| By ${global.nameown}`
-global.author = 'ZukaShikaⒸ︎' 
+global.author = 'RiiⒸ︎' 
 
 
 /*============== LOGO ==============*/
-global.thumb = 'https://telegra.ph/file/6048ec3e029520424c234.jpg' //Main Thumbnail
+global.thumb = "lol.jpg' //Main Thumbnail
 global.imagebot = 'https://telegra.ph/file/6048ec3e029520424c234.jpg'
-global.giflogo = 'https://telegra.ph/file/6048ec3e029520424c234.jpg'
+global.giflogo = 'lol.jpg'
 global.thumbs = ['https://telegra.ph/file/6048ec3e029520424c234.jpg', 'https://telegra.ph/file/6048ec3e029520424c234.jpg', 'https://telegra.ph/file/6048ec3e029520424c234.jpg','https://telegra.ph/file/6048ec3e029520424c234.jpg']
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 
@@ -180,7 +180,7 @@ global.htjava = '☘︎' //hiasan Doang :v
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'Cie mau nyolong ya'
-global.stickauth = `By BotzzMeeⒸ︎`
+global.stickauth = `By BotRiiⒸ︎`
 
 global.multiplier = 38 // The higher, The harder levelup
 
