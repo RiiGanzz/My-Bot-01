@@ -223,17 +223,17 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
    {
 	title: `┄┄┄┄┅┅| MAIN |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `📛 ${pmenus} INFO BOT`, rowId: ".info", description: "Menampilkan kecepatan respon "},
-	    {title: `💌 ${pmenus} OWNER`, rowId: ".owner", description: "Menampilkan List owner "},
-	    {title: `📔 ${pmenus} SCRIPT`, rowId: ".sc", description: `Source Code ${namebot}`},
+	    {title: `📛 ${pmenus} 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏`, rowId: ".info", description: "Menampilkan kecepatan respon "},
+	    {title: `💌 ${pmenus} 𝙊𝙒𝙉𝙀𝙍`, rowId: ".owner", description: "Menampilkan List owner "},
+	    {title: `📔 ${pmenus} 𝙎𝘾𝙍𝙄𝙋𝙏`, rowId: ".sc", description: `Source Code ${namebot}`},
 	{title: `🗣️ ${pmenus} REQUEST FITUR`, rowId: ".request", description: "Request fitur "},
 	]
     },{
 	title: `┄┄┄┄┅┅| SUPPORT |┅┅┄┄┄┄`,
 	rows: [
-	    {title: `🔖 ${pmenus} Sewa Bot`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
-	    {title: `🌟 ${pmenus} Upgrade Premium`, rowId: ".premium", description: "Menampilkan list harga upgrade premium"},
-	    {title: `💰 ${pmenus} Donasi`, rowId: ".donasi", description: 'Support BOT agar on 1 Minggu non stop'},
+	    {title: `🔖 ${pmenus} 𝚂𝚎𝚠𝚊 𝙱𝚘𝚝`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
+	    {title: `🌟 ${pmenus} 𝚄𝚙𝚐𝚛𝚊𝚍𝚎 𝙿𝚛𝚎𝚖𝚒𝚞𝚖`, rowId: ".premium", description: "Menampilkan list harga upgrade premium"},
+	    {title: `💰 ${pmenus} 𝙳𝚘𝚗𝚊𝚜𝚒`, rowId: ".donasi", description: 'Support BOT agar on 1 Minggu non stop'},
 	{title: `✨ ${pmenus} Rate`, rowId: ".rate", description: 'Support BOT agar Semangat update'},
 	]
 	},{
@@ -313,7 +313,7 @@ const listMessage = {
     let wibm = moment.tz('Asia/Jakarta').format('mm')
     let wibs = moment.tz('Asia/Jakarta').format('ss')
     let wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')
-    let wita = moment.tz('Asia/Makassar').format('HH:mm:ss')
+    let wita = moment.tz('Asia/Palembang').format('HH:mm:ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
  
  let mode = global.opts['self'] ? 'Private' : 'Publik'
