@@ -8,8 +8,8 @@ https://github.com/nurutomo/wabot-aq
 
 Base KannaChan: -
 
-Recode By Zukashika:
-https://youtu.be/4w829z0f8lQ`
+Recode By Rii:
+https://github.com/RiiGanzz/My-Bot-01`
 
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
